@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title>Portfolio</title>
+                <link rel="stylesheet" href="css/style.css">
+        </head>
+<body>
+        <div class="heading-container">
+                <h2 class="name">Zhuowei Hu</h2>
+                <h3>Please leave your name. I will get back to you soon</h3>
+                <div class="image-container">
+                <img src="he.png" alt="Profile Photo" class="circle"/>
+                </div>
+        </div>
+        <div class="navigation-bar">
+        <a href="index.html" class="navigation-link">About Me</a>
+        <a href="work-experience.html" class="navigation-link">Work Experience</a>
+        <a href="#" class="navigation-link">Contact Me</a>
+        </div>
+        
+        <h3 class="sub-heading">Contact Me </h3>
+        <div class="form-container contact-form-container">
+                        <form action="/contactMe" method="GET" class="contact-form">
+                        <label for="name">Name :</label>
+                        <input type="text" id="name" name="name" maxlength=10 required>
+                        <br><br><br><br>
+                        <label for="gender">Gender : </label>
+                        <input type="radio" id="gender" name="gender" value="male">
+                        <label for="gender">Male</label>
+                        <input type="radio" id="genderFemale" name="gender" value="female">
+                        <label for="gender">Female</label>
+                        <input type="radio" id="genderOther" name="gender" value="other">
+                        <label for="gender">Other</label>
+                        <br><br><br><br>
+                        <label for="contactFor">Contact For:</label>
+                        <input type="checkbox" id="contactFor" name="contactFor" value="Job">
+                        <label for="contactFor">Job</label>
+                        <input type="checkbox" id="contact" name="contactFor" value="Referral">
+                        <label for="contactFor">Referral</label>
+                        
+                        <div class="button">
+                        <input type="button" value="Clear">
+                        <input type="submit" value="Submit">
+                        </div>
+                </form>
+                
+        </div>
+        
+</body>
+</html>
